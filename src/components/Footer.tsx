@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="relative">
               <img src={logo} alt="Logo" className="h-11 w-11 text-primary" />
               </div>
-              <span className="text-xl font-bold">SlideStudyCenter</span>
+              <span className="text-xl font-bold">Slide Study Center</span>
             </div>
             <p className="text-background/80 max-w-md leading-relaxed">
               Redefining virtual education through the fusion of artificial intelligence and human expertise. Building the future of personalized, scalable learning.
