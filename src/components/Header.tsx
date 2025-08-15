@@ -19,13 +19,13 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <a href="/" className="flex items-center space-x-2">
             <div className="relative">
             <img src={logo} alt="Logo" className="h-8 w-8 text-primary" />
               
             </div>
             <h2 className="text-xl font-small text-foreground">Slide Study Center</h2>
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
