@@ -8,20 +8,20 @@ const StatusSection = () => {
       title: "MVP Development",
       description: "Core platform features in active development with initial AI lesson generation capabilities",
       status: "In Progress",
-      progress: 25
+      progress: 35
     },
     {
       icon: Users,
       title: "Pilot Programs",
       description: "Early access partnerships with select schools to test and refine our platform",
-      status: "Planning",
-      progress: 10
+      status: "Active",
+      progress: 20
     },
     {
       icon: Handshake,
       title: "Strategic Partnerships",
       description: "Building relationships with educational institutions, content providers, and technology partners",
-      status: "Active",
+      status: "In Progress",
       progress: 20
     },
     {
@@ -109,7 +109,7 @@ const StatusSection = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button variant="hero" size="lg" className="group">
-                <a href="https://wellfound.com/company/slidestudycenter/jobs" target="_blank" rel="noopener noreferrer" >Join Our Mission </a>
+                <a href="https://forms.gle/ZaeDssvyRDjxn6fB7" target="_blank" rel="noopener noreferrer" >Join Our Mission </a>
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="hero-outline" size="lg">
